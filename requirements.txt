@@ -1,0 +1,8 @@
+python-dotenv
+pyyaml
+openai
+chromadb
+fastapi
+uvicorn
+pytest
+httpx

@@ -1,0 +1,13 @@
+chunking:
+  chunk_size: 500
+  overlap: 50
+embedding:
+  model: text-embedding-3-small
+vectordb:
+  collection: rag_docs
+llm:
+  model: gpt-4o-mini
+  temperature: 0.2
+api:
+  host: 0.0.0.0
+  port: 8000
