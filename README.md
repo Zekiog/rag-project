@@ -1,5 +1,11 @@
 # rag-project
 
+
+<!-- BADGES-START -->
+[![CI](https://github.com/Zekiog/rag-project/actions/workflows/ci.yml/badge.svg)](https://github.com/Zekiog/rag-project/actions/workflows/ci.yml)
+![License](https://img.shields.io/github/license/Zekiog/rag-project)
+![Last commit](https://img.shields.io/github/last-commit/Zekiog/rag-project)
+<!-- BADGES-END -->
 Moduler RAG pipeline:
 ingestion → chunking → embeddings → vectordb → retrieval → llm → api
 
