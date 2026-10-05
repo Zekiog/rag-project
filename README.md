@@ -28,7 +28,7 @@ python main.py ingest
 ## Run the API
 
 ```bash
-uvicorn src.api.routes:app --reload
+uvicorn src.api.routes:app --env-file .env --reload
 ```
 
 ## Run the tests
