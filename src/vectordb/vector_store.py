@@ -2,6 +2,7 @@ import chromadb
 
 from src.utils.helpers import BASE_DIR
 
+
 class VectorStore:
     def __init__(self, collection: str = "rag_docs"):
         self.client = chromadb.PersistentClient(
