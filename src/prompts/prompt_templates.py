@@ -1,12 +1,12 @@
-QA_PROMPT = """Asagidaki baglama dayanarak soruya kisa ve net cevap ver.
-Baglamda bilgi yoksa "Bilmiyorum" de.
+QA_PROMPT = """Answer the question briefly and clearly using only the context below.
+If the context does not contain the answer, reply "I don't know".
 
-Baglam:
+Context:
 {context}
 
-Soru: {question}
+Question: {question}
 
-Cevap:"""
+Answer:"""
 
 def build_qa_prompt(context: str, question: str) -> str:
     return QA_PROMPT.format(context=context, question=question)
