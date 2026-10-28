@@ -15,7 +15,7 @@ def ingest():
                              cfg["chunking"]["chunk_size"],
                              cfg["chunking"]["overlap"])
     if not chunks:
-        logger.warning("data/ bos — indexlenecek belge yok.")
+        logger.warning("data/ is empty — no documents to index.")
         return
     embedder = Embedder(cfg["embedding"]["model"])
     store = VectorStore(cfg["vectordb"]["collection"])
