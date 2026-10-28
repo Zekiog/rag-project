@@ -6,6 +6,7 @@ from src.ingestion.loader import load_documents
 from src.utils.helpers import load_config, setup_logging
 from src.vectordb.vector_store import VectorStore
 
+
 def ingest():
     logger = setup_logging()
     cfg = load_config()

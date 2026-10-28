@@ -2,6 +2,7 @@ import os
 
 from openai import OpenAI
 
+
 class LLMClient:
     def __init__(self, model: str = "gpt-4o-mini", temperature: float = 0.2):
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
