@@ -1,4 +1,3 @@
-from pathlib import Path
 
 from src.utils.helpers import BASE_DIR
 
