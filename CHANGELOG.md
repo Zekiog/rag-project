@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Social preview image at `.github/social-preview.png`.
 
 ### Changed
-- README rewritten in English with an architecture overview, usage instructions, and CI and licence badges.
+- README rewritten in English with a pipeline overview, quick start, project layout, and CI badge.
 
 ### Security
 - Branch protection on `main` requiring one approving review and dismissing stale approvals on push.
